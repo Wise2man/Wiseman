@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+                <div class="container">
+
+            <header class="text-center text-light my-4">
+                    <h1 class="mb-4">Todo List</h1>
+
+                    <form class="search">
+                        <input class="form-control m-auto" type="text" name="search" id="" placeholder="search todos">
+                    </form>
+            </header>
+
+            <ul class="list-group todo mx-auto text-light">
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                     <span> first, i wanna practice javascript</span>
+                    <i class="fa fa-trash delete" aria-hidden="true" ></i>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span> secondly, i wanna practice HTML5</span>
+            <i class="fa fa-trash delete" aria-hidden="true"></i>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    
+                    <span> Thirdly, i wanna do CSS3</span>
+
+                <i class="fa fa-trash delete" aria-hidden="true"></i>
+                </li>
+    
+            </ul>
+
+            <form class="add text-center my-4">
+
+                <label class=" text-light" for="add">Add new todo...</label>
+
+                <input class="form-control" type="text" name="add" id="add" >
+
+            </form>
+
+                </div>
+
+    <script src="javascript/app.js"></script>
+</body>
+</html>
